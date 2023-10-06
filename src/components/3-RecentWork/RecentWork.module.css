@@ -1,0 +1,163 @@
+/* RECENT WORK HEADER ----------------> */
+.recentWorkHeaderBox {
+    /* border: 1px rgb(194, 0, 165) solid; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 25px 0 25px;
+}
+.recentWorkHeaderBox h1 {
+    /* border: 1px rgb(194, 0, 165) solid; */
+    color:#000000;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1300px;
+    margin: 0;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+.recentWorkHeaderBox hr {    
+    border: 0.5px rgb(0, 0, 0) solid;
+    width: 31%;
+}
+
+/* RECENT WORK MAIN ----------------> */
+.recentWorkMain {
+    /* border: 1px rgb(10, 194, 0) solid; */
+    background-color: rgba(0, 0, 0, 0.127);
+    margin: 0 0 0 0;
+    padding: 0 0 50px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* RECENT WORK CONTENT & MAIN ----------------> */
+.recentWorkContent {
+    max-width: 1500px;
+    padding-top: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.recentWorkContent .mainBox {
+    background-color: gray;
+    margin: 0 20px 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.recentWorkContent .topBox {
+    max-width: 1100px;
+    max-height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    
+    /* overlay tutorial */
+    position: relative;
+}
+.recentWorkContent .backgroundImg {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    transform: scale(2);
+    /* transform: translate(0, -200px); */
+    margin: 0 0 0 0;
+}
+.recentWorkContent .imageOverlay {
+    /* border: 1px red solid; */
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: -1px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: opacity 200ms ease-in-out;
+
+}
+.recentWorkContent .bottomBox {
+    background-color: black;
+    width: 100%;
+    padding: 10px 0 5px 0;
+    align-content: center;
+    align-self: center;
+    justify-content: space-between;
+
+    display: flex;
+}
+.recentWorkContent h2 {
+    /* border: 1px red solid; */
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 150px;
+}
+.recentWorkContent h3 {
+    /* border: 1px red solid; */
+    color: white;
+    margin: 0 0 0 10px;
+}
+
+.recentWorkContent .logo {
+    /* border: 1px red solid; */
+    text-align: right;
+    width: 70px;
+    align-self: flex-end;
+}
+.recentWorkContent p {
+    /* border: 1px red solid; */
+    color: white;
+    font-size: 13px;
+    margin: 10px 0 10px 10px;
+}
+
+.recentWorkContent .imageOverlay:hover {
+    opacity: 1;
+}
+    
+.recentWorkMain button {
+    border: none;
+    border-radius: 20px;
+    background-color: #39bff9; 
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+
+    background-image: linear-gradient(75deg, #90ff81, #03d711, #03d711, #90ff81); 
+    background-size: 300% ;
+    background-position: left;
+    transition: 300ms background-position ease-in-out;
+}
+.recentWorkMain button:hover {
+    background-position: right;
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 467px) {
+
+    .recentWorkHeader {
+        text-align: center;
+    }
+}
