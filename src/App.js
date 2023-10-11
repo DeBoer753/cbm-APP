@@ -5,7 +5,7 @@
 
 
 // REACT:
-import { React, useRef } from "react";
+import { React } from "react"; // you had useRef after react but netlify said you werent using it
 
 // ROUTER:
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

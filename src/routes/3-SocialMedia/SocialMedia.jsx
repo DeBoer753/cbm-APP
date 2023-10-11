@@ -1,5 +1,5 @@
 // REACT
-import react from 'react'
+// import react from 'react'
 
 // SERVICES
 export default function Services() {
