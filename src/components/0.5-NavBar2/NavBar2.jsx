@@ -1,5 +1,5 @@
 // REACT:
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 // ROUTER:
 import { Link } from 'react-router-dom'
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import DropDown from './DropDown'
 
 //IMGS:
-import logoIcon from '../../imgs/CBMedia_White.png'
+// import logoIcon from '../../imgs/CBMedia_White.png' -- netlify told you to get rid of es lint errors in order to deploy, buy you might need this. Keep that in mind
 
 // CSS:
 import './NavBar2.css' 
