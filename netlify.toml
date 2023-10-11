@@ -3,6 +3,7 @@
   to = "/"
   status = 200
 
-  [build]
+[build]
   command = "npm run build"
-  publish = "build" # or the directory where your build artifacts are located
+  publish = "build"
+  base = "cbm-app"  # Specify the correct casing of your base directory
