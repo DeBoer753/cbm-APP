@@ -1,5 +1,5 @@
 // REACT:
-import react from 'react'
+// import react from 'react'
 
 // COMPONENETS: 
 import Footer from '../../components/5-Footer/Footer'

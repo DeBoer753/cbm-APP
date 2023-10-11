@@ -29,10 +29,10 @@ import styles from "./App.module.css";
 
 // APP:
 export default function App() {
-  const home = useRef(null)
-  const scrollToHome = () => {
-    home.current?.scrollIntoView({behavior: 'smooth'})
-  }
+  // const home = useRef(null)
+  // const scrollToHome = () => {
+  //   home.current?.scrollIntoView({behavior: 'smooth'})
+  // } -- netlify told you to get rid of es lint errors in order to deploy, buy you might need this. Keep that in mind
   
   return (
     
