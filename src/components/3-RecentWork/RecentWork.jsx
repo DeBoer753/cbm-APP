@@ -1,5 +1,4 @@
 // IMGS:
-import capeCod from '../../imgs/morningMode.png'
 import porscheLogo from '../../imgs/porscheLogo.png'
 import porscheMarin from '../../imgs/porscheImg.png'
 

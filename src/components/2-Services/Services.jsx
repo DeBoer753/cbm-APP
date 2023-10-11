@@ -2,7 +2,6 @@
 import { Link } from 'react-router-dom'
 
 // IMGS:
-import capeCod from '../../imgs/morningMode.png'
 import socialMedia from '../../imgs/socialImg.png'
 import photography from '../../imgs/gearImg.png'
 import video from '../../imgs/droneImg.png'

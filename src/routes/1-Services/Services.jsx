@@ -9,7 +9,6 @@ import styles from './Services.module.css'
 
 // IMGS:
 import banner from '../../imgs/bannerTemplateCBM.jpg'
-import capeCod from '../../imgs/morningMode.png'
 import socialMedia from '../../imgs/socialImg.png'
 import photography from '../../imgs/gearImg.png'
 import video from '../../imgs/droneImg.png'
