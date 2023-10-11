@@ -6,4 +6,4 @@
 [build]
   command = "npm run build"
   publish = "build"
-  base = "cbm-app"  # Specify the correct casing of your base directory
+  base = "m-photo-project"  # Specify the correct casing of your base directory
