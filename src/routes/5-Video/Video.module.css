@@ -1,0 +1,71 @@
+/* BANNER AND INTRO ----------------> */
+.banner {
+    width: 100%;
+  }
+  
+  /* VIDEO HEADER ----------------> */
+  .videoHeaderBox {
+      text-align: center;
+  } 
+  .videoHeaderBox h1 {
+      color:#000000;
+      text-align: center;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      max-width: 1300px;
+      margin: 0;
+      padding: 20px 40px;
+      margin: 0 auto;
+  } 
+  .videoHeaderBox p {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+  }
+  
+  /* VIDEO MAIN & CONTENT----------------> */
+  .videoMain {
+    background-color: rgb(242, 242, 242);
+    /* background-image: url('/Users/myles_deboer/Desktop/Desktop 2.0/Coding/Photography/m-photo-project/src/imgs/paper2Img.jpg'); */
+    background-size: cover;
+    padding: 20px 50px 50px 50px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px; 
+  }
+  .videoMain .videoHeaderBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .videoMain h1 {
+    /* border: 1px rgb(194, 0, 165) solid; */
+    color:#000000;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1300px;
+    padding: 20px 40px;
+    margin: 0 auto;
+  }
+  .videoContent {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.299);
+    max-width: 1300px;
+    padding: 20px 10px;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 844px) {
+  
+  
+  }
+  
+  @media only screen and (min-width: 280px) and (max-width: 467px) {
+  
+  }
+  
