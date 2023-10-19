@@ -64,7 +64,7 @@ export default function Contact() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nobis id nisi fuga dicta ullam explicabo reiciendis amet doloremque aliquid impedit, accusantium laboriosam tempora earum odit eos necessitatibus ab velit.</p>
           </div>
 
-          <form onSubmit={handleSubmit} className={styles.contactContentMsgBox}>
+          <form onSubmit={handleSubmit} className={styles.contactContentMsgBox} netlify>
             <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="">Name*</label>
             <input type="text" required value={clientName} onChange={(e) => setClientName(e.target.value)}/>
