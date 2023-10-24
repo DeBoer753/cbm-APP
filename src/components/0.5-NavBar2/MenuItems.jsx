@@ -15,3 +15,21 @@ export const MenuItems = [
     cName: 'dropdown-link'
   }
 ]
+
+export const NestedMenuItems = [
+  {
+    title: 'Social Media',
+    path: '/socialmedia',
+    cName: 'dropdown-link'
+  },
+  {
+    title: 'Photography',
+    path: '/photography',
+    cName: 'dropdown-link'
+  },
+  {
+    title: 'Video',
+    path: '/video',
+    cName: 'dropdown-link'
+  }
+]

@@ -76,10 +76,10 @@ margin: 0 10px 10px 10px;
   width: 50%;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 1103px) {
+@media only screen and (min-width: 200px) and (max-width: 764px) {
 
-  .workButtonBox button {
-    
+  .workButtonBox  {
+    flex-direction: column;
   }
   .workContent {
     align-content: center;
