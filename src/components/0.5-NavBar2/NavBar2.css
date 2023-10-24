@@ -170,3 +170,10 @@
   font-size: 22px;
 }
 }
+
+
+@media only screen and (max-width: 961px) {
+  .hide-on-mobile {
+    display: none; /* Hide on screens with a width of 767 pixels or less (typically mobile devices) */
+  }
+}
